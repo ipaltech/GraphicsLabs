@@ -70,7 +70,7 @@ public class Main extends Application {
                 BufferedImage rgbImage = new BufferedImage(bufferedImage.getWidth(),bufferedImage.getHeight(),BufferedImage.TYPE_INT_RGB);
 
                 Graphics2D g = rgbImage.createGraphics();
-                g.setPaint(java.awt.Color.WHITE); // Белый фон
+                g.setPaint(java.awt.Color.WHITE); 
                 g.fillRect(0, 0, rgbImage.getWidth(), rgbImage.getHeight());
                 g.drawImage(bufferedImage, 0, 0, null);
                 g.dispose();
@@ -83,7 +83,7 @@ public class Main extends Application {
                 BufferedImage rgbImage = new BufferedImage(bufferedImage.getWidth(),bufferedImage.getHeight(),BufferedImage.TYPE_INT_RGB);
 
                 Graphics2D g = rgbImage.createGraphics();
-                g.setPaint(java.awt.Color.WHITE); // Белый фон
+                g.setPaint(java.awt.Color.WHITE);
                 g.fillRect(0, 0, rgbImage.getWidth(), rgbImage.getHeight());
                 g.drawImage(bufferedImage, 0, 0, null);
                 g.dispose();
